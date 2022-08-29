@@ -1,0 +1,14 @@
+1				# of constraint blocks
+1				constraint zone
+2 1.0 1.0 1.0			Structural metric 2 with wx wy wz ignored
+1 10.0 0.01			weight function 1 with mean of 10 and small stdev
+0				no links to other blocks
+0.0				reference value
+1.0				relative weight
+
+100 0.25 0.5			beta min_red beta_red
+1.0				chi target
+30 50				miniter maxiter (inner iterations)
+0.00001 1			minsig maxsig
+2				beta update option (use min_red and beta_red)
+1 1.5				data outlier reweighting is implemented 3 stdev from the mean
